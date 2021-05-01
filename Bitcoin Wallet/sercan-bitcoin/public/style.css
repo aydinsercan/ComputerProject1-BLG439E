@@ -1,0 +1,31 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 78.125%;
+    height: 100%;
+}
+
+body{
+    font: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    margin: 0;
+    position: relative;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 4rem 1fr 3.5rem;
+    height: 100vh;
+    width: auto;
+}
